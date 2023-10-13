@@ -1,0 +1,351 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: black;
+    }
+
+  .topnav {
+    background-color: black;
+    overflow: hidden;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 18px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04aa6d;
+    color: white;
+  }
+  .topnav-right {
+    text-decoration: none;
+    font-size: 12px;
+    float: right;
+    
+  }
+  .btn{
+    background-color: black;
+    color: white;
+    padding: 1px 1px;
+    border: black;
+    text-align: center;
+    font-size: medium;
+    border-style: none;
+
+  }
+
+  .bottomnav {
+    background-color: #3b3a30;
+    overflow:hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .bottomnav a {
+    float: left;
+    color: #feb236;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    word-spacing: 7em;
+  }
+  
+  /* Change the color of links on hover */
+  .bottomnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .container{
+    color: #feb236;
+
+  }
+  
+  
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .buton{
+    text-align: center;
+    display: grid;
+    justify-content: right;
+    margin-right: 15%;
+    margin-top: -5%;
+
+  }
+  .my-buton{
+    border: 2px #feb236 solid;
+    border-radius: 50%;
+    padding: 17px;
+    background-color: black;
+    color: #feb236;
+    
+  }
+  .my-buton:hover {
+    background-color: #feb236;
+    color: black;
+    
+  }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    background-color:#3b3a30;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color:white;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color:#b27c23;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.3;
+  }
+
+  .parent {
+    border: 1px solid black;
+    margin: 5rem;
+    padding: 4rem 4rem;
+    text-align: center;
+    color: #ddd;
+  }
+  .child {
+    display: inline-block;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    color: #ddd;
+  }
+
+  .sir {
+    display: inline-block;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    color: #ddd;
+  }
+
+  .cast{
+    color: #ddd;
+    text-align: right;
+    font-size: large;
+    text-indent: 50px;
+    white-space: nowrap;
+   
+  width: 300px;
+  height: 100px;
+  border: 1px ;
+  box-sizing: border-box;
+
+  }
+
+  .row{
+    color: #ddd;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+  }
+  .butt{
+    text-align: center;
+    display: grid;
+    justify-content: right;
+    margin-right: 15%;
+
+  }
+  .my-button{
+    border: 2px #feb236 solid;
+    border-radius: 50%;
+   
+    padding: 17px;
+    background-color: black;
+    color: #feb236;
+    
+  }
+  .my-button:hover {
+    background-color: #feb236;
+    color: black;
+    
+  }
+
+  .contain{
+    border: 2px solid #ccc;
+    background-color: #292727;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+    color: rgb(117, 111, 111);
+    height: 200px ;
+    width: 500px;
+    margin-left: 15%;
+    
+  }
+
+  .contain img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px; 
+  }
+
+  .buttoon{
+    text-align: center;
+    display: grid;
+    justify-content: right;
+    margin-right: 15%;
+
+  }
+  .my-buttoon{
+    border: none;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    padding: 17px;
+    background-color: black;
+    color: #feb236;
+    text-underline-offset: 0.5em;
+    
+  }
+  .my-buttoon:hover {
+    background-color: #feb236;
+    color: black;
+  }
+  .colun{
+    text-align: center;
+    display: grid;
+ 
+    
+  }
+
+  .buttton{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    
+
+  }
+  .my-buttton{
+    border: none;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    padding: 17px;
+    background-color: black;
+    color: #feb236;
+    text-underline-offset: 0.5em;
+    
+  }
+  .my-buttton:hover {
+    background-color: #feb236;
+    color: black;
+  }
+  .colum{
+    text-align: right;
+    margin-right: 12%;
+    border-right: 25%;
+    margin-top: -3%;
+  }
+
+  .columnar{
+    text-align: right;
+    margin-right: 12%;
+    border-right: 25%;
+    
+  }
+
+  .fa {
+    padding: 10px;
+  text-align: right;
+    margin: 5px 2px;
+    font-size: 30px;
+    width: 30px;
+  }  
+  .fa-facebook {  
+    background: black;  
+    color: white;  
+    border: white;
+  }  
+  .fa-twitter {  
+    background: black;  
+    color: white;  
+    border: white;
+  }  
+  
+  .fa-instagram {  
+    background: black;  
+    color: white;  
+    border: white;
+  }  
+  .fa-youtube {  
+    background: black;  
+    color: white;  
+    border: white;
+  }  
+  
+  .fa:hover {  
+      opacity: 0.9;  
+      color: black;
+      background-color: white;
+  }  
+
+
+
+ 
+  footer {
+    display: block;
+    text-align: left;
+    padding: 3px;
+    background-color: black;
+    color: grey;
+  }
+  .heading{
+    color: white;
+    font-size:medium;
+    text-align: center;
+  }
